@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.topBar {
+  background-color: #aaaaaa;
+  height: 25px;
+}
+
+.question-container {
+  position: relative;
+}
+
+.question {
+  position: absolute;
+  top: 20%;
+  left: 10%;
+}
+
+.questionText {
+  margin-top: 34px !important;
+  font-size: 20px;
+}
+.options {
+  margin-top: 10%;
+}
+
+.option-row {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.option {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e6e6e6;
+  height: 35px;
+  width: 170px;
+  border-radius: 7px;
+  border: 1px solid black;
+}
+
+.option-wrapper {
+  width: 50%;
+  display: inline-block;
+margin-top: 20px;
+}
+
+.option p {
+  font: 20px;
+  font-weight: 600;
+}
+.scoreBar {
+  height: 30px;
+  width: 100%;
+  border: 1px solid black;
+  border-radius: 8px;
+  background-color: #fff;
+}
+
+.score {
+  display: flex;
+  justify-content: space-between;
+}
+
+.score p {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.score-wrapper {
+  margin-top: 100px;
+}
+
+.socreBar {
+  display: flex;
+}
+.lowestScore {
+  height: 100%;
+  background-color: #000;
+}
+.currentScore {
+  height: 100%;
+  background-color: #717171;
+}
+.maximumScore {
+  height: 100%;
+  background-color: #d2d2d2;
+}
+.nextQuestion {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.nextBtn {
+  margin-top: 30px;
+}
+
+.scoreBar {
+  display: flex;
+}
